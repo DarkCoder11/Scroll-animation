@@ -1,0 +1,574 @@
+.Nutella {
+  width: 20%;
+  height: auto;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.fruitPieces {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  right: 45%;
+  top: 50%;
+  animation: moveFruitPieces 0.5s forwards, shakyfruitPieces 1s infinite 0.5s;
+}
+
+.ChocolatePieces {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  right: 45%;
+  top: 50%;
+  animation: moveChocolatePieces 0.5s forwards, shakyChocolatePieces 1s infinite 0.5s;
+}
+
+@keyframes shakyChocolatePieces {
+  0% {
+    top: 20%;
+  }
+  50% {
+    top: 19.5%;
+  }
+  100% {
+    top: 20%;
+  }
+}
+
+@keyframes shakyfruitPieces {
+  0% {
+    top: 0%;
+  }
+  50% {
+    top: 0.5%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+@keyframes moveChocolatePieces {
+  from {
+    right: 45%;
+    top: 50%;
+  }
+  to {
+    right: 25%;
+    top: 20%;
+  }
+}
+
+@keyframes moveFruitPieces {
+  from {
+    right: 45%;
+    top: 50%;
+  }
+  to {
+    right: 15%;
+    top: 0%;
+  }
+}
+
+.LooksFarFruitPieces {
+  position: absolute;
+  width: 6%;
+  right: 45%;
+  top: 50%;
+  transform: rotate(180deg);
+  animation: moveLooksFarFruitPieces 0.5s forwards, shakyLooksFarFruitPieces 1s infinite 0.5s;
+}
+
+.LooksFarChocolatePieces {
+  position: absolute;
+  width: 6%;
+  right: 45%;
+  top: 50%;
+  transform: rotate(180deg);
+  animation: moveLooksFarChocolatePieces 0.5s forwards, shakyChocolatePiecesLookFar 1s infinite 0.5s;
+}
+
+@keyframes shakyChocolatePiecesLookFar {
+  0% {
+    top: 10%;
+  }
+  50% {
+    top: 9.5%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+
+@keyframes shakyLooksFarFruitPieces {
+  0% {
+    top: 1%;
+  }
+  50% {
+    top: 0.5%;
+  }
+  100% {
+    top: 1%;
+  }
+}
+@keyframes moveLooksFarFruitPieces {
+  from {
+    right: 45%;
+    top: 50%;
+  }
+  to {
+    right: 45%;
+    top: 1%;
+  }
+}
+
+@keyframes moveLooksFarChocolatePieces {
+  from {
+    right: 45%;
+    top: 50%;
+  }
+  to {
+    right: 45%;
+    top: 10%;
+  }
+}
+
+.Nuts {
+  position: absolute;
+  width: 10%;
+  transform: rotate(180deg);
+  animation: moveNuts 0.5s forwards, shakyNuts 1s infinite 0.5s;
+}
+
+.OrangePieces {
+  position: absolute;
+  width: 10%;
+  transform: rotate(180deg);
+  animation: moveOrangePieces 0.5s forwards, shakyOrangePieces 1s infinite 0.5s;
+}
+
+@keyframes shakyNuts {
+  0% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 10.5%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+@keyframes shakyOrangePieces {
+  0% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 10.5%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+@keyframes moveNuts {
+  from {
+    right: 45%;
+    top: 50%;
+  }
+  to {
+    right: 10%;
+    bottom: 10%;
+  }
+}
+
+@keyframes moveOrangePieces {
+  from {
+    right: 45%;
+    top: 50%;
+  }
+  to {
+    right: 10%;
+    bottom: 10%;
+  }
+}
+
+.LooksFarNuts {
+  position: absolute;
+  width: 6%;
+  right: 45%;
+  top: 50%;
+  animation: moveLooksFarNuts 0.5s forwards, shakyLooksFarNuts 1s infinite 0.5s;
+}
+
+.LooksFarOrangePieces {
+  position: absolute;
+  width: 6%;
+  right: 45%;
+  top: 50%;
+  animation: moveLooksFarOrangePieces 0.5s forwards, shakyLooksFarOrangePieces 1s infinite 0.5s;
+}
+
+@keyframes shakyLooksFarNuts {
+  0% {
+    top: 70%;
+  }
+  50% {
+    top: 70.5%;
+  }
+  100% {
+    top: 70%;
+  }
+}
+
+@keyframes shakyLooksFarOrangePieces {
+  0% {
+    top: 30%;
+  }
+  50% {
+    top: 30.5%;
+  }
+  100% {
+    top: 30%;
+  }
+}
+
+@keyframes moveLooksFarNuts {
+  from {
+    right: 45%;
+    top: 50%;
+  }
+  to {
+    right: 30%;
+    top: 70%;
+  }
+}
+
+@keyframes moveLooksFarOrangePieces {
+  from {
+    right: 45%;
+    top: 50%;
+  }
+  to {
+    right: 30%;
+    top: 30%;
+  }
+}
+
+.ShugarPieces {
+  position: absolute;
+  width: 6%;
+  right: 45%;
+  bottom: 50%;
+  animation: moveShugarPieces 0.5s forwards, shakyShugarPieces 1s infinite 0.5s;
+}
+
+.ShugarPiecesForJuice {
+  position: absolute;
+  width: 6%;
+  right: 45%;
+  bottom: 50%;
+  animation: moveShugarPiecesForJuice 0.5s forwards, shakyShugarPiecesForJuice 1s infinite 0.5s;
+}
+
+@keyframes shakyShugarPieces {
+  0% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 9.5%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+@keyframes shakyShugarPiecesForJuice {
+  0% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 9.5%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+@keyframes moveShugarPieces {
+  from {
+    right: 45%;
+    bottom: 50%;
+  }
+  to {
+    left: 48%;
+    bottom: 10%;
+  }
+}
+
+@keyframes moveShugarPiecesForJuice {
+  from {
+    right: 45%;
+    bottom: 50%;
+  }
+  to {
+    right: 55%;
+    bottom: 10%;
+  }
+}
+
+.LooksFarShugarPieces {
+  position: absolute;
+  width: 4%;
+  left: 55%;
+  top: 50%;
+  animation: moveLooksFarShugarPieces 0.5s forwards, shakyLooksFarShugarPieces 1s infinite 0.5s;
+}
+
+.LooksFarShugarPiecesForJuice {
+  position: absolute;
+  width: 4%;
+  left: 55%;
+  top: 50%;
+  animation: moveLooksFarShugarPiecesForJuice 0.5s forwards, shakyLooksFarShugarPiecesForJuice 1s infinite 0.5s;
+}
+
+@keyframes shakyLooksFarShugarPieces {
+  0% {
+    top: 30%;
+  }
+  50% {
+    top: 31%;
+  }
+  100% {
+    top: 30%;
+  }
+}
+
+@keyframes shakyLooksFarShugarPiecesForJuice{
+  0% {
+    top: 30%;
+  }
+  50% {
+    top: 31%;
+  }
+  100% {
+    top: 30%;
+  }
+}
+
+@keyframes moveLooksFarShugarPieces {
+  from {
+    left: 55%;
+    top: 50%;
+  }
+  to {
+    left: 28%;
+    top: 30%;
+  }
+}
+
+@keyframes moveLooksFarShugarPiecesForJuice {
+  from {
+    left: 55%;
+    top: 50%;
+  }
+  to {
+    left: 28%;
+    top: 30%;
+  }
+}
+
+.ChocolatePiecesSecond {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  bottom: 35%;
+  left: 15%;
+  animation: moveChocolatePiecesSecond 0.5s forwards, shakyChocolatePiecesSecond 1s infinite 0.5s;
+}
+
+.OrangePiecesSecond {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  bottom: 35%;
+  left: 15%;
+  animation: moveOrangePiecesSecond 0.5s forwards, shakyOrangePiecesSecond 1s infinite 0.5s;
+}
+
+@keyframes shakyChocolatePiecesSecond {
+  0% {
+    bottom: 35%;
+  }
+  50% {
+    bottom: 34%;
+  }
+  100% {
+    bottom: 35%;
+  }
+}
+
+@keyframes shakyOrangePiecesSecond {
+  0% {
+    bottom: 35%;
+  }
+  50% {
+    bottom: 34%;
+  }
+  100% {
+    bottom: 35%;
+  }
+}
+
+@keyframes moveChocolatePiecesSecond {
+  from {
+    left: 55%;
+    bottom: 50%;
+  }
+  to {
+    bottom: 35%;
+    left: 15%;
+  }
+}
+
+@keyframes moveOrangePiecesSecond {
+  from {
+    left: 55%;
+    bottom: 50%;
+  }
+  to {
+    bottom: 35%;
+    left: 15%;
+  }
+}
+
+.ChocolatePiecesFirst {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 55%;
+  bottom: 50%;
+  animation: moveChocolatePiecesFirst 0.5s forwards, shakyChocolatePiecesFirst 1s infinite 0.5s;
+}
+
+.OrangePiecesFirst {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  left: 55%;
+  bottom: 50%;
+  animation: moveOrangePiecesFirst 0.5s forwards, shakyOrangePiecesFirst 1s infinite 0.5s;
+}
+
+@keyframes shakyChocolatePiecesFirst {
+  0% {
+    bottom: 5%;
+  }
+  50% {
+    bottom: 4%;
+  }
+  100% {
+    bottom: 5%;
+  }
+}
+
+@keyframes shakyOrangePiecesFirst {
+  0% {
+    bottom: 5%;
+  }
+  50% {
+    bottom: 4%;
+  }
+  100% {
+    bottom: 5%;
+  }
+}
+
+@keyframes moveChocolatePiecesFirst {
+  from {
+    left: 55%;
+    bottom: 50%;
+  }
+  to {
+    bottom: 5%;
+    left: 1%;
+  }
+}
+
+@keyframes moveOrangePiecesFirst {
+  from {
+    left: 55%;
+    bottom: 50%;
+  }
+  to {
+    bottom: 5%;
+    left: 1%;
+  }
+}
+
+.NutsFirst {
+  position: absolute;
+  width: 6%;
+  left: 55%;
+  top: 50%;
+  animation: moveNutsFirst 0.5s forwards, shakyNutsFirst 1s infinite 0.5s;
+}
+
+.OrangHalf {
+  position: absolute;
+  width: 6%;
+  top: 10%;
+  left: 10%;
+  animation: moveOrangHalf 0.5s forwards, shakyOrangHalf 1s infinite 0.5s;
+}
+
+@keyframes shakyNutsFirst {
+  0% {
+    top: 10%;
+  }
+  50% {
+    top: 9%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+
+@keyframes shakyOrangHalf {
+  0% {
+    top: 10%;
+  }
+  50% {
+    top: 9%;
+  }
+  100% {
+    top: 10%;
+  }
+}
+
+@keyframes moveNutsFirst {
+  from {
+    left: 55%;
+    top: 50%;
+  }
+  to {
+    top: 10%;
+    left: 10%;
+  }
+}
+
+@keyframes moveOrangHalf {
+  from {
+    left: 55%;
+    top: 50%;
+  }
+  to {
+    top: 10%;
+    left: 10%;
+  }
+}

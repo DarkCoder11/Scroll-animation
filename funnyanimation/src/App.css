@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.NutellaBg {
+  background: linear-gradient(to bottom, #ee824b, #c0693c, #94512e, #6b3b21, #442514);
+  border: 1px solid #442514;
+}
+
+.MinutaMadeBg {
+  background: linear-gradient(to bottom, #99a949, #7f8c3c, #657030, #4d5524, #363c19);
+  border: 1px solid #363c19;
+}
+
+
+
+
